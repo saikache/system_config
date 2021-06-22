@@ -23,3 +23,13 @@ alias f='free -lh'
 alias s='git status'
 alias r='rvm list'
 alias rr='rvm gemset list'
+
+
+rvm install "ruby-2.4.4"
+
+rmagic
+
+sudo apt install libmagickcore-dev
+
+give permissions to normal user ubuntu
+sudo usermod -a -G rvm $USER
