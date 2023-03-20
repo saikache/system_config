@@ -69,6 +69,7 @@ ip addr show docker0
 docker rm revolver-mq -f
 docker build -f Dockerfile.mqlistener . -t revolver-mq
 docker run  --name revolver-mq --add-host=host.docker.internal:172.17.0.1  -d  revolver-mq
+
 docker exec -it revolver-mq /bin/bash
 
 
