@@ -1,0 +1,80 @@
+--------
+BUILD
+--------
+docker build . -t revolver-march
+
+docker build . -t ukr_oss
+
+docker build . -t php_8
+symfony server:start
+
+docker run -dp 8000:8000  27775824d18b # image_id
+docker run  00b3b83eff77 # image_id
+docker exec -it f8b91f9cb186 /bin/bash
+
+
+docker build . -t revolver-ukr
+build -f Dockerfile.mqlistener . -t revolver-mq
+
+BASH
+
+docker exec -it inspiring_shirley /bin/bash
+echo $SEED_LOGS_TO_FILE
+
+docker stop 70c631d9f492  # container id
+
+docker logs 943d64fcbdc7 # container_id
+
+
+docker build . -t revolver-beeline
+
+
+docker run -dp 9292:9292  c9a1601e778d # image_id
+
+docker run  --name revolver_false  -dp 9292:9292  revolver-march
+
+
+docker run  --name revolver-mq  -d  revolver-mq
+
+
+docker exec -it revolver-mq /bin/bash
+
+revolver-beeline
+docker run  --name revolver-beeline  -d  revolver-beeline
+docker exec -it revolver-beeline /bin/bash
+docker exec -it mysql /bin/bash
+
+
+docker start 61e3a06c3465  #  mysql old but not having all tables in dbss
+5802b6e699c0
+nice_banzai
+docker exec -it nice_banzai /bin/bash
+----- csrtb mysql db container
+
+
+
+ip addr show docker0
+
+docker rm revolver-mq -f
+
+docker build -f Dockerfile.mqlistener . -t revolver-mq
+docker run  --name revolver-mq --add-host=host.docker.internal:172.17.0.1  -d  revolver-mq
+docker exec -it revolver-mq /bin/bash
+
+
+PAK
+docker build . -t revolver-pak-master
+
+docker build . -t revolver-djezzy
+
+docker run  --name revolver-pak-master -dp 9292:9292  revolver-pak-master
+
+docker rm revolver-pak-master -f
+
+docker exec -it revolver-pak-master /bin/bash
+
+presumptive taxation
+if income < 50,00,000 for freelances
+can show Incom 50% only, meaning 25L as income if income is 50L
+then we can claim for 80c, HRA, other benifits
+Under 44ADA
